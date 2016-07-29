@@ -1,0 +1,27 @@
+{
+    "name": "chapter-three/marketo-soap-php",
+    "description": "Provides a Marketo SOAP client library for php.",
+    "keywords": ["marketo", "soap", "php", "marketing"],
+    "type": "library",
+    "license": "GPLv2+",
+    "authors": [
+        {
+            "name": "Jaesin Mulenex",
+            "email": "jaesin@no-reply.gradientsky.com"
+        },
+        {
+            "name": "Brian Fischer",
+            "email": "tbfisher@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require-dev": {
+        "phpunit/phpunit": "~4.0"
+    },
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-4": { "ChapterThree\\MarketoSoap\\": "src" }
+    }
+}
