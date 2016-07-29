@@ -7,11 +7,9 @@ php:
   - hhvm
 
 install:
-  # Remove Xdebug.
-  - phpenv config-rm xdebug.ini || true
   # Install Composer.
   - composer install
 
 script:
   # Run PHPUnit tests.
-  - ./vendor/bin/phpunit -c ./phpunit.xml --coverage-text --strict
+  - ./vendor/bin/phpunit -c ./phpunit.xml --coverage-text
